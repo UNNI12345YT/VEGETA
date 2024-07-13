@@ -19,7 +19,7 @@ class Config(object):
 
     API_ID = 27408015   # integer value, dont use ""
     API_HASH = "2f07e7c921c8d2b982df12d65a46ca46"
-    TOKEN = ""  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6798002806:AAERYInldAmB1I6FbrRevdA2cWQ7q1DnWDA"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     SQLALCHEMY_DATABASE_URI = "" #Use Your ElephantSQL
     OWNER_ID = 6171681404  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "UNNIdud"
@@ -35,7 +35,7 @@ class Config(object):
     URL = None
     SPAMWATCH_API = "AX4GiqmGB~SAUKpU1Z1P9N4gVyrmnn45MGxruspqVGxL1bwEuHRfE~LR~ERfDEk3"  # go to support.spamwat.ch to get key -
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "2128359921"
+    BOT_ID = "6798002806"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
